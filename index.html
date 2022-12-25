@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>You Are Awesome!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="singer-data">
+        <header>
+          <i class="fa-solid fa-arrow-left fa-lg"></i>
+          <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        </header>
+        <main>
+          <div class="singer-info">
+            <img src="images\higedan.jpg" />
+            <h1 class="singer__name">Official髭男dism</h1>
+            <h5>J-Pop, Rock</h5>
+            <div class="singer__btn">
+              <span class="singer__shuffle-btn">Shuffle</span>
+              <div class="singer__shuffle-btn white">
+                <i class="fa-solid fa-heart fa-lg"></i>
+                212 971
+              </div>
+            </div>
+          </div>
+          <ul class="singer-song-list">
+            <li class="list-song__info" id="song1">
+              <div class="list-song__album">
+                <div class="list-song__album_cover">
+                  <img src="images/pretender.jpg" />
+                </div>
+                <div class="list-song__title">
+                  <h5>Pretender</h5>
+                  <h6>Official髭男dism</h6>
+                </div>
+              </div>
+              <div class="list-song__edit-btn">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </li>
+            <li class="list-song__info" id="song2">
+              <div class="list-song__album">
+                <div class="list-song__album_cover selected">
+                  <img src="images/sweetsweet.jpg" />
+                  <i class="fa-solid fa-chart-simple fa-lg"></i>
+                </div>
+                <div class="list-song__title">
+                  <h5>Sweet Sweet</h5>
+                  <h6>Official髭男dism</h6>
+                </div>
+              </div>
+              <div class="list-song__edit-btn">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </li>
+            <li class="list-song__info" id="song3">
+              <div class="list-song__album">
+                <div class="list-song__album_cover">
+                  <img src="images/crybaby.jpg" />
+                </div>
+                <div class="list-song__title">
+                  <h5>Cry Baby</h5>
+                  <h6>Official髭男dism</h6>
+                </div>
+              </div>
+              <div class="list-song__edit-btn">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </li>
+            <li class="list-song__info" id="song4">
+              <div class="list-song__album">
+                <div class="list-song__album_cover">
+                  <img src="images/tellmebaby.jpg" />
+                </div>
+                <div class="list-song__title">
+                  <h5>Tell Me Baby</h5>
+                  <h6>Official髭男dism</h6>
+                </div>
+              </div>
+              <div class="list-song__edit-btn">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </li>
+          </ul>
+          <div class="control-box">
+            <div class="control-box__title">
+              <h5>Sweet Sweet</h5>
+              <h6>Official髭男dism</h6>
+            </div>
+            <div class="control-box__button">
+              <i class="fa-solid fa-backward-step"></i>
+              <i class="fa-solid fa-pause fa-2x"></i>
+              <i class="fa-solid fa-forward-step"></i>
+            </div>
+          </div>
+        </main>
+      </div>
+      <!--다음장-->
+      <div class="main-song">
+        <header>
+          <i class="fa-solid fa-arrow-left fa-lg"></i>
+          <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+        </header>
+        <main class="main-song__album">
+          <img src="images/sweetsweet.jpg" />
+          <h1>Sweet Sweet</h1>
+          <h5>Official髭男dism</h5>
+          <div class="main-song__play-info">
+            <div class="main-song__playtime">
+              <span>1:56</span>
+              <span>2:21</span>
+            </div>
+            <div class="playtime__status-bar">
+              <div class="status-bar bar_1"></div>
+              <div class="status-bar bar_2"></div>
+              <div class="status-bar bar_3"></div>
+            </div>
+          </div>
+          <div class="main-song__control-box">
+            <i class="fa-solid fa-repeat fa-lg"></i>
+            <i class="fa-solid fa-backward-step fa-lg"></i>
+            <button class="main_song__play-btn">
+              <i class="fa-solid fa-play fa-lg"></i>
+            </button>
+            <i class="fa-solid fa-forward-step fa-lg"></i>
+            <i class="fa-solid fa-shuffle fa-lg"></i>
+          </div>
+        </main>
+      </div>
+    </div>
+    <!--font awesome-->
+    <script
+      src="https://kit.fontawesome.com/6d41ed8211.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--//font awesome-->
+  </body>
+</html>
